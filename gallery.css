@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin: auto;
+    font-family: "Poller One";
+    text-transform: uppercase;
+    color:white;
+    background-color:black;
+    max-width: fit-content;
+    padding: 10px 20px;
+    text-align: center;
+}
