@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    flex-shrink: 5;
 }
 .logo-display{
     margin-top:100px;
@@ -17,21 +16,22 @@ a:visited{
     flex-direction: column;
     margin: 85px auto;
     align-items: center;
+    margin-bottom: 2px;
 }
 ul{
     list-style:none;
     display:flex;
-    gap: 45px;
-    margin:50px;
+    gap: 42px;
+    margin:49px;
 }
 ul li a{
     font-family: "Arial Black", Gadget, sans-serif;
     color:#333;
     text-decoration: none;
+    font-size: 14px;
 }
 ul li a:hover {
     color:#0ba39c;
-    transition-duration: 1s;
 }
 .content{
     width: 100%;
@@ -42,42 +42,78 @@ ul li a:hover {
 }
 .content .text{
     background-image: none;
-    height:10%;
+    height:fit-content;
     width:35%;
-    margin-top: 10%;
-    margin-right:10%;
+    margin-top: 7.6%;
+    line-height: 0.85;
+    margin-right:22%;
     float: right;
     text-align: center;
     width: fit-content;
 }
 .text h2 {
+    padding: 20px 30px;
     background-color:white;
-    font-size:42px;
+    font-size:20px;
     font-family: "Poller One";
+    text-transform: uppercase;
 }
 .text p{
     background-color: black;
+    padding: 10px 15px;
     color:white;
-    font-size:28px;
+    font-size:20px;
     width:fit-content;
-    padding:15px;
     font-family: Arial, Helvetica, sans-serif;;
 }
 .content input{
     background-color: #0ba39c;
-    min-height: 50px;
-    min-width: 100px;
+    min-height: 75px;
+    min-width: 150px;
     border:none;
-    align-self: left;
+    float:left;
+    color:white;
+    font-size: 18px;
+
 }
 .images {
     display:flex;
-    gap:35px;
+    gap:20px;
     justify-content: center;
     text-align: center;
+    margin:5px
+}
+.images img {
+    border: 2px solid black;
+}
+.images .caption:hover{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
 }
 .images .caption {
     flex-direction: column;
     font-family: "Poller One";
+    font-size:13px;
     text-transform: uppercase;
+    opacity: 0.8;
+}
+.images .caption h2{
+    opacity: 1;
+    font-weight:normal
+}
+div.footer{
+    background-color: #1a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 50px 0 50px;
+    height: 122px;
+}
+.footer p{
+    font-size: 14px;
+    color:white;
+    margin-left:480px;
+}
+.footer div {
+    display:block;
+    padding-top:50px
 }
