@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-shrink: 5;
+}
+.logo-display{
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+}
+a:visited{
+    color:#333;
+}
+.header {
+    display:flex;
+    flex-direction: column;
+    margin: 85px auto;
+    align-items: center;
+}
+ul{
+    list-style:none;
+    display:flex;
+    gap: 45px;
+    margin:50px;
+}
+ul li a{
+    font-family: "Arial Black", Gadget, sans-serif;
+    color:#333;
+    text-decoration: none;
+}
+ul li a:hover {
+    color:#0ba39c;
+    transition-duration: 1s;
+}
+.content{
+    width: 100%;
+    height: 770px;
+    background-image: url("https://freewebsitetemplates.com/preview/mustacheenthusiast/images/the-beacon.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.content .text{
+    background-image: none;
+    height:10%;
+    width:35%;
+    margin-top: 10%;
+    margin-right:10%;
+    float: right;
+    text-align: center;
+    width: fit-content;
+}
+.text h2 {
+    background-color:white;
+    font-size:42px;
+    font-family: "Poller One";
+}
+.text p{
+    background-color: black;
+    color:white;
+    font-size:28px;
+    width:fit-content;
+    padding:15px;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+.content input{
+    background-color: #0ba39c;
+    min-height: 50px;
+    min-width: 100px;
+    border:none;
+    align-self: left;
+}
+.images {
+    display:flex;
+    gap:35px;
+    justify-content: center;
+    text-align: center;
+}
+.images .caption {
+    flex-direction: column;
+    font-family: "Poller One";
+    text-transform: uppercase;
+}
